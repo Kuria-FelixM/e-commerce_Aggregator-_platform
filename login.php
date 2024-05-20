@@ -31,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             $_SESSION["id"] = $user['id'];
                             $_SESSION["username"] = $username;
 
-                            // Redirect user to home page
+                           // Redirect user to home page
                             header("location: user_home.php");
             } else {
                 // Invalid password
