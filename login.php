@@ -38,7 +38,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 $error = "Invalid username or password. Please try again.";
             }
         } else {
-            // User not found
+          // User not found
             $error = "User not found. Please sign up.";
         }
 
