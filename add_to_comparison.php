@@ -1,6 +1,7 @@
 <?php
 require_once 'connect.php';
 
+
 session_start();
 
 // Create a new instance of the Database class
