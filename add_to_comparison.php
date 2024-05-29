@@ -29,4 +29,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['vehicle_id']) && isse
 
 // Close the database connection
 $database->closeConnection();
+
 ?>
