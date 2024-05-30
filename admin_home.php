@@ -59,6 +59,7 @@ $result = $conn->query($sql);
     <link rel="stylesheet" href="css/user_style.css">
     <script src="https://kit.fontawesome.com/105d3540aa.js" crossorigin="anonymous"></script>
     <style>
+      
         body {
             font-family: Arial, sans-serif;
         }
