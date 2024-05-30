@@ -31,6 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $stmt->execute();
         $stmt->close();
     } elseif (isset($_POST['delete_user'])) {
+      
         // Delete user
         $id = intval($_POST['id']);
         $sql = "DELETE FROM users WHERE id=?";
