@@ -47,7 +47,6 @@ $sql = "SELECT id, username, email FROM users";
 $result = $conn->query($sql);
  ?>
 
-
 <!DOCTYPE html>
 <html lang="en">
 
