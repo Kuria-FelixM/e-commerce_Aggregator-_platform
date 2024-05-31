@@ -7,6 +7,7 @@ $id = $_SESSION["id"];
 $database = new Database();
 $conn = $database->getConnection();
 
+
 // Query to retrieve recommendations
 $sqll = "SELECT title FROM recommendationss WHERE car_id = ?";
 $car_id = 1; 
