@@ -42,6 +42,7 @@ $database->closeConnection();
     <script src="https://kit.fontawesome.com/105d3540aa.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    
 <div class="featured">
     <div class="categories-h">
         <h2>RECOMMENDATIONS</h2>
