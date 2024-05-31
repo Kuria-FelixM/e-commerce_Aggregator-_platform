@@ -28,6 +28,7 @@ if ($result->num_rows > 0) {
 $sql = "SELECT * FROM scrap";
 $allproduct = $conn->query($sql);
 
+
 // Close the database connection
 $database->closeConnection();
 ?>
