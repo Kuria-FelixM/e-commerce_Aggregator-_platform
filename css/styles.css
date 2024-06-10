@@ -1,0 +1,181 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background-image: url('../img/image_5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+}
+
+
+.login-container {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0 1.5rem;
+}
+
+
+.login-content {
+    max-width: 24rem;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.login-header {
+    margin-bottom: 2rem;
+}
+
+.login-title {
+    font-size: 30px;
+    font-weight: bolder;
+    color: orange;
+}
+
+.login-description {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.login-form .form-group {
+    margin-bottom: 1rem;
+    text-align: left;
+    color: #ffffff;
+}
+
+.login-form label {
+    font-size: 0.875rem;
+    font-weight: bold;
+    display: block;
+}
+
+.login-form input {
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 0.375rem;
+    border: 1px solid #D1D5DB;
+    padding: 0.5rem;
+    font-size: 0.875rem;
+}
+
+.btn-login,
+.btn-google-login {
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 0.375rem;
+    font-size: 0.875rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.btn-login {
+    background-color: rgb(45, 39, 82);
+    color: #ffffff;
+    border: none;
+}
+
+
+
+.btn-login:hover,
+.btn-google-login:hover {
+    opacity: 0.7s;
+}
+
+.error {
+    color: white;
+}
+.login-footer {
+    margin-top: 1rem;
+    font-size: 0.875rem;
+    color: #ffffff;
+}
+
+.signup-link {
+    text-decoration: underline;
+    color: rgb(45, 39, 82);
+}
+
+
+
+.signup-container {
+    width: 100%;
+    padding: 12px 0;
+}
+
+.signup-content {
+    max-width: 24rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.signup-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.signup-title {
+    font-size: 30px;
+    font-weight: bolder;
+    color: orange;
+}
+
+.signup-description {
+    color: white;
+    font-weight: bold;
+}
+
+.signup-form .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.signup-form label {
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: white;
+}
+
+.signup-form input {
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 0.375rem;
+    border: 1px solid #D1D5DB;
+    padding: 0.5rem;
+    font-size: 0.875rem;
+}
+
+.btn-signup {
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 0.375rem;
+    font-size: 0.875rem;
+    font-weight: bold;
+    background-color: rgb(45, 39, 82);
+    color: #ffffff;
+    border: none;
+}
+
+.btn-signup:hover {
+    opacity: 0.7;
+}
+
+.signup-footer {
+    text-align: center;
+    margin-top: 1rem;
+    color: white;
+}
+
+.signin-link {
+    text-decoration: underline;
+    color: rgb(45, 39, 82);
+}
