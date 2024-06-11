@@ -4,6 +4,7 @@ require_once 'connect.php';
 class ProductSearch {
     private $db;
 
+    
     public function __construct(Database $db) {
         $this->db = $db;
     }
