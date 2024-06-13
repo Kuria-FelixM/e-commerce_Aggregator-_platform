@@ -1,6 +1,7 @@
 <?php
 require_once 'connect.php';
 
+
 class CarModel {
     private $db;
 
