@@ -1,3 +1,4 @@
+
 // add hovered class to selected list item
 let list = document.querySelectorAll(".navigation li");
 
