@@ -1,4 +1,4 @@
-
+#E-COMMERCE AGGREGATOR PLATFORM
 Overview
 
 Welcome to our website! This platform scrapes data from various web sources using Scrapy, aggregates the data into an SQL database, displays the aggregated data to clients, and generates personalized recommendations. This document will guide you through the setup and usage of the website.
